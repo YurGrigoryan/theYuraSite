@@ -1,0 +1,291 @@
+.body1{
+    margin: 0;
+    padding: 0;
+    animation: mymove 5s infinite;
+}
+.buttons{
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.185);
+    cursor: pointer;
+    transition: background-color 1s;
+}
+.buttons:hover{
+    background-color: rgba(240, 248, 255, 0.521);
+    border: none;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.11);
+    height: 100px;
+    align-items: center;
+}
+#section1{
+    height: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.div1{
+    width: 800px;
+}
+#inrTxt{
+    text-align: center;
+}
+.h1{
+    text-align: center;
+    
+}
+.myImg{
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+}
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 60px;
+    display: none;
+}
+#buton{
+    background-color: white;
+    align-items: center;
+}
+#bigh1{
+    text-align: center;
+    display: none;
+    color: green;
+}
+#h1{
+    text-align: center;
+    display: none;
+    color: green;
+}
+#divButon{
+    display: flex;
+    justify-content: center;
+}
+#buton{
+    width: 100px;
+    height: 50px;
+}
+#div3{
+    color: green;
+    text-align: center;
+    display: flex;
+}
+.BigDivGame{
+    width: 730px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.SmallDivGame{
+    display: block;
+}
+.body2{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.divGame{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#gameH1{
+    text-align: center;
+}
+#buttonGame{
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.185);
+    cursor: pointer;
+    transition: background-color 1s;
+}
+#buttonGame:hover{
+    background-color: rgba(240, 248, 255, 0.521);
+    border: none;
+}
+.divInput{
+    display: flex;
+    flex-direction: column;
+}
+.body3{
+    margin: 0;
+    padding: 0;
+}
+#game2{
+    height: 500px;
+    width: 390px;
+    border: 1px solid black;
+    margin: 1rem auto;
+    background-image: url(12233210102019_a05b0a246d94ca49cd63912b54f76d25cd17bc3c.jpg);
+    background-size: contain;
+    overflow: hidden;
+}
+#bluecar{
+    height: 100px;
+    width: 70px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+    left: 0px;
+    animation: move 2s linear infinite;
+}
+#racecar{
+    height: 100px;
+    width: 70px;
+    border-radius: 10px;
+    position: relative;
+    top: 250px;
+    left: 130px;
+    display: flex;
+    justify-content: center;
+}
+#bluecar img{
+    height: 100px;
+}
+#racecar img{
+    width: 100px;
+}
+#score{
+    font-size: 2.2rem;
+    color: brown;
+}
+#result{
+    width: 400px;
+    height: 280px;
+    background-color: cornflowerblue;
+    margin: 1rem auto;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    display: none;
+}
+.divGame2{
+    display: flex;
+    flex-direction: column;
+}
+.game2Div{
+    display: flex;
+    justify-content: center;
+}
+.divGame2 a img{
+    width: 600px;
+    height: 350px;
+}
+.BigDivGame div a img{
+    width: 200px;
+  
+}
+#btn{
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.185);
+    cursor: pointer;
+    transition: background-color 1s;
+}
+#btn:hover{
+    background-color: rgba(240, 248, 255, 0.521);
+    border: none;
+}
+@keyframes move {
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 501px;
+    }
+}
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+@media screen and (max-width: 850px){
+    .h1{
+        font-size: 20px;
+        width: 500px;
+    }
+    #inrTxt{
+        font-size: 20px;
+        width: 500px;
+    }
+    .myImg{
+        width: 300px;
+        height: 200px;
+    }
+    .div1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section1{
+        height: 1200px;
+    }
+    .startH2{
+        font-size: 20px;
+    }
+    #startH1{
+        font-size: 20px;
+    }
+    .game2Div a img{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 715px) {
+    .startH2{
+        width: 300px;
+        text-align: center;
+    }
+    #startH1{
+        width: 300px;
+        text-align: center;
+    }
+    #section1{
+        height: 1200px;
+    }
+}
+@media screen and (max-width: 570px) {
+    .h1{
+        font-size: 15px;
+        width: 300px;
+    }
+    #inrTxt{
+        font-size: 15px;
+        width: 300px;
+    }
+    #footer{
+        flex-direction: column;
+        height: 200px;
+    }
+    .buttons{
+        margin-top: 5px;
+        margin-bottom:5px ;
+    }
+    #header{
+        flex-direction: column;
+        height: 250px;
+    }
+}
