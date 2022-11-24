@@ -24,7 +24,7 @@
     align-items: center;
 }
 #section1{
-    height: 1400px;
+    height: 1500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -210,6 +210,32 @@
     background-color: rgba(240, 248, 255, 0.521);
     border: none;
 }
+.divSite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.divSite a button{
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.185);
+    cursor: pointer;
+    transition: background-color 1s;
+}
+.divSite a button:hover{
+    background-color: rgba(240, 248, 255, 0.521);
+    border: none;
+}
+.smallDivSite{
+    display: flex;
+    justify-content: center;
+}
+.divSite div h1{
+    text-align: center;
+}
 @keyframes move {
     0%{
         top: 0px;
@@ -264,7 +290,7 @@
         text-align: center;
     }
     #section1{
-        height: 1200px;
+        height: 1300px;
     }
 }
 @media screen and (max-width: 570px) {

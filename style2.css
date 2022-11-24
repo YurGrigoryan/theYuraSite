@@ -1,0 +1,705 @@
+.topdiv{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.topdiv div ul{
+    display: flex;
+    list-style-type: none;
+}
+.topdiv div ul li{
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+}
+.button1{
+    background-color: rgb(63, 63, 63);
+    width: 200px;
+    height: 50px;
+}
+.chgitem{
+    width: 400px;
+    height: 80px;
+}
+
+.smalldiv1>h1{
+    color: gold;
+}
+.smalldiv2>img{
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.smalldiv3>img{
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.xoharar{
+    width:200px ;
+    height: 200px;
+}
+.apse{
+    width: 600px;
+    height: 600px;
+}
+.div{
+    display: flex;
+    justify-content: center;
+}
+.h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+.chgitem{
+    width: 200px;
+    height: 50px;
+}
+
+.enchild{
+    background-color: rgba(0, 0, 0, 0.753);
+    height: 400px;
+    width: 400px;
+    right: 10px;
+    margin: 50px;
+}
+.enchild>div>h1{
+    text-align: center;
+    color: white;
+}
+header{
+    background-image: url(7.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.button2{
+    width: 200px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.divh1{
+    width: 900px;
+}
+.divchgitem{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.section1{
+    background: url(9.png);
+}
+.png5{
+    width: 50px;
+    height: 10px;
+}
+.buttons>button{
+    margin: 15px;
+}
+.bigdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chgitem2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.chgitem3{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.section2{
+    
+    background-image: url(nkar.png);
+    display: flex;
+    justify-content: end;
+    height: 500px;
+}
+.png6{
+    width: 300px;
+    
+}
+.png5{
+    width: 150px;
+    height: 20px;
+    margin:20px 50px 20px 50px
+}
+.divpng5{
+    display: flex;
+    justify-content: center;
+}
+.divpng6{
+    display: flex;
+    justify-content: center;
+}
+.armenia{
+    width: 100px;
+    height: 100px;
+}
+.russia{
+    height: 100px;
+    width: 100px;
+}
+.america{
+    width: 100px;
+    height: 100px;
+}
+.divimages{
+    display: flex;
+    justify-content: space-around ; 
+    margin-top: 50px;
+}
+.appetisers{
+    color: rgb(190, 162, 0);
+    font-size: 30px;
+}
+.png{
+    width:180px ;
+}
+.photo1{
+    width: 400px;
+    height: 80px;
+}
+.photo2{
+    width: 400px;
+    height: 80px;
+}
+.photo3{
+    width: 400px;
+    height: 80px;
+}
+.salads{
+    color: rgb(190, 162, 0);
+    font-size: 30px;
+}
+.photo4{
+    width: 180px;
+}
+.photo5{
+    width: 400px;
+    height: 80px;
+}
+.photo6{
+    width: 400px;
+    height: 80px;
+}
+.photo7{
+    width: 400px;
+    height: 80px;
+}
+.divphotos{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    align-items: center;
+    background-image: url(section3.png);
+}
+.starters{
+    color: rgb(190, 162, 0);
+    font-size: 30px;
+}
+.photo8{
+    width: 180px;
+}
+.photo9{
+    width: 400px;
+    height: 80px;
+}
+.photo10{
+    width: 400px;
+    height: 80px;
+}
+.main{
+    color: rgb(190, 162, 0);
+    font-size: 30px;
+}
+.photo11{
+    width: 180px;
+}
+.photo12{
+    width: 400px;
+    height: 80px;
+}
+.photo13{
+    width: 400px;
+    height: 80px;
+}
+.photo14{
+    width: 400px;
+    height: 80px;
+}
+.photo15{
+    width: 400px;
+    height: 80px;
+}
+.margin{
+    margin-top: 50px;
+    text-align: center;
+}
+.bigdivphotos1{
+    margin-right: 50px;
+}
+.bigdivphotos2{
+    margin-left: 50px;
+}
+.divphotos2{
+    text-align: center;
+}
+.divphotos3{
+    text-align: center;
+}
+.section4son{
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 600px; 
+    height: 450px;
+    text-align: center;
+    align-items: center;
+}
+.guest{
+    color: white;
+    font-size: 35px;
+}
+.photo16{
+    width: 200px;
+}
+.photo17{
+    width: 500px;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+    background-image: url(1646668357_20-abrakadabra-fun-p-shashlik-vid-sverkhu-49.jpg);
+}
+.one{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.tree{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.section5son{
+    display: flex;
+    margin-right: 50px;
+}
+.photo18{
+    width: 200px;
+    height: 400px;
+}
+.photo19{
+    width: 200px;
+    height: 400px;
+}
+.bigphoto18{
+    margin-right: 20px;
+}
+.section5{
+    background-image: url(section5.png);
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+.just{
+    color: rgb(190, 162, 0);
+    font-size: 30px;
+}
+.divinput{
+    display: flex;
+}
+.photo20{
+    width: 150px;
+}
+.photo21{
+    width: 400px;
+}
+.h6{
+    color: rgb(190, 162, 0);
+}
+.bigdivinput{
+    margin-left: 50px;
+    text-align: center;
+}
+.buttonbook{
+    background-color: rgb(190, 162, 0);
+    width: 140px;
+    height: 30px;
+}
+.namediv{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.partydiv{
+    margin-top: 20px; 
+}
+.datediv{
+    margin-right: 30px;
+}
+.divbutton{
+    margin-top: 20px;
+    
+}
+.footer{
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    align-items: center;
+}
+.about{
+    color: white;
+    font-size: 25px;
+}
+.photo22{
+    width: 200px;
+}
+.photo23{
+    width: 330px;
+}
+.opening{
+    color: white;
+    font-size: 25px;
+}
+.photo24{
+    width: 200px;
+}
+.photo25{
+    width: 210px;
+}
+.photo26{
+    width: 120px;
+}
+.our{
+    color: white;
+    font-size: 25px;
+}
+.photo27{
+    width: 200px;
+}
+.photo28{
+    width: 200px;
+}
+.photo29{
+    width: 88px;
+}
+.footerdiv1{
+    text-align: center;
+}
+.footerdiv2{
+    text-align: center;
+}
+.footerdiv3{
+    text-align: center;
+}
+.header{
+    height: 500px;
+}
+.photo22div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.photo24div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.photo26div{
+    margin-top: 10px;
+}
+.photo27div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.photo29div{
+    margin-top: 10px;
+}
+@media screen and (max-width: 950px ) {
+    .topdiv{
+        flex-direction: column;
+    }
+    .header{
+        height: 600px;
+    }
+}
+@media screen and (max-width: 850px){
+    .topdiv{
+        flex-wrap: nowrap;
+
+    }
+    .bigdiv{
+        flex-wrap: nowrap;
+        margin-top: 50px;
+    }
+    .h1{
+        font-size: 50px;
+    }
+    .divh1{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 640px){
+    .topdiv>div>ul{
+        flex-direction: column;
+    }
+    .topdiv>div>ul>li{
+        margin: 10px;
+    }
+    .chgitem{
+        display: none;
+    }
+    .header{
+        height: 700px;
+    }
+    .button1{
+        width: 150px;
+        height: 40px;
+    }
+    .button2{
+        width: 150px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .h1{
+        font-size: 20px;
+    }
+    .divh1{
+        width: 200px;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:1000px){
+    .apse{
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    .section3{
+        flex-direction: column;
+        height:1500px ;
+    }
+    .bigdivphotos2{
+        margin: 0;
+    }
+    .bigdivphotos1{
+        margin: 0;
+    }
+    .divphotos2{
+        margin-bottom: 50px;
+    }
+    .section5{
+        flex-direction: column;
+        height: 1000px;
+        text-align: center;
+    }
+    .bigdivinput{
+        margin-left: 0;
+    }
+    .section5son{
+        margin-right: 0;
+    }
+    .footer{
+        flex-direction: column;
+        height: 700px;
+    }
+    .photo23{
+        width: 270px;
+    }
+}
+@media screen and (max-width:620px) {
+    .apse{
+        display: none;
+    }
+}
+@media screen and (max-width:500px) {
+    .armenia{
+        display: none;
+    }
+    .america{
+        display: none;
+    }
+    .russia{
+        display: none;
+    }
+    .enchild{
+        height: 150px;
+        width: 250px;
+        margin: 0;
+    }
+    .png6{
+        width: 220px;
+    }
+    .fine{
+        font-size: 20px;
+    }
+    .section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
+    .section4son{
+        width: 280px;
+        height: 100px;
+    }
+}
+@media screen and (max-width:450px) {
+    .bigdivphotos1{
+        width: 280px;
+    }
+    .appetisers{
+        font-size: 10px;
+    }
+    .png{
+        width: 100px;
+    }
+    .photo1{
+        width: 280px;
+        height: 40px;
+    }
+    .photo2{
+        width: 280px;
+        height: 40px;
+    }
+    .photo3{
+        width: 280px;
+        height: 40px;
+    }
+    .salads{
+        font-size: 10px;
+    }
+    .photo4{
+        width: 100px;
+    }
+    .photo5{
+        width: 280px;
+        height: 40px;
+    }
+    .photo6{
+        width: 280px;
+        height: 40px;
+    }
+    .photo7{
+        width: 280px;
+        height: 40px;
+    }
+    .bigdivphotos2{
+        width: 280px;
+    }
+    .starters{
+        font-size: 10px;
+    }
+    .photo8{
+        width: 100px;
+    }
+    .photo9{
+        width: 280px;
+        height: 40px;
+    }
+    .photo10{
+        width: 280px;
+        height: 40px;
+    }
+    .main{
+        font-size: 10px;
+    }
+    .photo11{
+        width: 280px;
+        height: 40px;
+    }
+    .photo12{
+        width: 280px;
+        height: 40px;
+    }
+    .photo13{
+        width: 280px;
+        height: 40px;
+    }
+    .photo14{
+        width: 280px;
+        height: 40px;
+    }
+    .photo15{
+        width: 280px;
+        height: 40px;
+    }
+    .section3{
+        height: 850px;
+    }
+    .section5son{
+        flex-direction: column;
+    }
+    .section5{
+        height: 1300px;
+    }
+    .divinput{
+        flex-direction: column;
+    }
+    .datediv{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .namediv{
+        margin-right: 0;
+    }
+    .just{
+        font-size: 15px;
+    }
+    .photo21{
+        width: 250px;
+    }
+    .bigphoto18{
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:700px) {
+    .section4son{
+        width: 270px;
+        height: 180px;
+    }
+    .guest{
+        font-size: 10px;
+    }
+    .photo16{
+        width: 130px;
+    }
+    .photo17{
+        width: 200px;
+    }
+    .one{
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width:550px) {
+    .photo18{
+        width: 200px;
+        height: 400px;
+    }
+    .photo19{
+        width: 200px;
+        height: 400px;
+    }
+}
