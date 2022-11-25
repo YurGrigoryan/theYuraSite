@@ -24,7 +24,7 @@
     align-items: center;
 }
 #section1{
-    height: 1500px;
+    height: 1900px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -236,6 +236,22 @@
 .divSite div h1{
     text-align: center;
 }
+.hello  {
+    color: white;
+    margin-left: 20px;
+    margin-top: 27px;
+}
+.h3{
+    text-align: center;
+}
+.divGit{
+    display: flex;
+    justify-content: center;
+}
+.endImg{
+    width: 700px;
+    height: 300px;
+}
 @keyframes move {
     0%{
         top: 0px;
@@ -279,6 +295,10 @@
         width: 300px;
         height: 200px;
     }
+    .endImg{
+        width: 500px;
+        height: 250px;
+    }
 }
 @media screen and (max-width: 715px) {
     .startH2{
@@ -290,7 +310,7 @@
         text-align: center;
     }
     #section1{
-        height: 1300px;
+        height: 1500px;
     }
 }
 @media screen and (max-width: 570px) {
@@ -313,5 +333,12 @@
     #header{
         flex-direction: column;
         height: 250px;
+    }
+    .endImg{
+        width: 290px;
+        height: 150px;
+    }
+    #hEnd{
+        font-size: 10px;
     }
 }
