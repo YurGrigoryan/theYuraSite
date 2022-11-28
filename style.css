@@ -24,7 +24,7 @@
     align-items: center;
 }
 #section1{
-    height: 1900px;
+    height: 2100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,12 +129,15 @@
 .body3{
     margin: 0;
     padding: 0;
+    background-image: url(hello.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 #game2{
-    height: 500px;
+    height: 615px;
     width: 390px;
     border: 1px solid black;
-    margin: 1rem auto;
     background-image: url(12233210102019_a05b0a246d94ca49cd63912b54f76d25cd17bc3c.jpg);
     background-size: contain;
     overflow: hidden;
@@ -168,12 +171,12 @@
 }
 #score{
     font-size: 2.2rem;
-    color: brown;
+    color: white;
 }
 #result{
     width: 400px;
     height: 280px;
-    background-color: cornflowerblue;
+    background-color: rgba(0, 0, 0, 0.433);
     margin: 1rem auto;
     border-radius: 20px;
     font-size: 30px;
@@ -252,6 +255,57 @@
     width: 700px;
     height: 300px;
 }
+.divSite2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.divSite2 a button{
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.185);
+    cursor: pointer;
+    transition: background-color 1s;
+}
+.divSite2 a button:hover{
+    background-color: rgba(240, 248, 255, 0.521);
+    border: none;
+}
+.smallDivSite2{
+    display: flex;
+    justify-content: center;
+}
+#hEnd2{
+    text-align: center;
+}
+.lorem{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.loremDiv1{
+    width: 600px;
+    margin: 30px;
+}
+.loremDiv2{
+    width: 600px;
+    margin: 30px;
+}
+.loremDiv3{
+    width: 600px;
+    margin: 30px;
+}
+.loremDiv4{
+    width: 600px;
+    margin: 30px;
+}
+.sectionLorem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 @keyframes move {
     0%{
         top: 0px;
@@ -282,9 +336,6 @@
         flex-direction: column;
         align-items: center;
     }
-    #section1{
-        height: 1200px;
-    }
     .startH2{
         font-size: 20px;
     }
@@ -299,6 +350,22 @@
         width: 500px;
         height: 250px;
     }
+    .loremDiv1{
+        width: 400px;
+        margin: 20px;
+    }
+    .loremDiv2{
+        width: 400px;
+        margin: 20px;
+    }
+    .loremDiv3{
+        width: 400px;
+        margin: 20px;
+    }
+    .loremDiv4{
+        width: 400px;
+        margin: 20px;
+    }
 }
 @media screen and (max-width: 715px) {
     .startH2{
@@ -310,7 +377,7 @@
         text-align: center;
     }
     #section1{
-        height: 1500px;
+        height: 1600px;
     }
 }
 @media screen and (max-width: 570px) {
@@ -340,5 +407,24 @@
     }
     #hEnd{
         font-size: 10px;
+    }
+    #hEnd2{
+        font-size: 5px;
+    }
+    .loremDiv1{
+        width: 300px;
+        margin: 10px;
+    }
+    .loremDiv2{
+        width: 300px;
+        margin: 10px;
+    }
+    .loremDiv3{
+        width: 300px;
+        margin: 10px;
+    }
+    .loremDiv4{
+        width: 300px;
+        margin: 10px;
     }
 }
