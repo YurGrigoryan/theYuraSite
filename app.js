@@ -38,4 +38,3 @@ z.addEventListener("click" , function(){
     q.innerText = "And this is one of the sites I made"
     a.innerText = "This is also one of the sites I made"
 })
-
